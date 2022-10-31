@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+$dyno-text: 'DynaPuff';
+$light-color: #edf2f4;
+$dark-color: #2b2d42;
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: $dyno-text;
+
+}
+
+body {
+    background-color: $light-color;
+}
+
+.navbar {
+    background-color: $dark-color  !important;
+}
+
+main {
+    flex: 1 0 auto;
+
+    .border {
+        border-color: $dark-color  !important;
+    }
+
+    .originalStringBox {
+        background-color: $dark-color;
+        color: $light-color;
+    }
+    .buttons{
+        .btn{
+            margin-bottom: 8px;
+            min-width: 45%;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+footer{
+    background-color: $dark-color;
+}
