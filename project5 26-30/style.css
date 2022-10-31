@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "DynaPuff";
+}
+
+body {
+  background-color: #edf2f4;
+}
+
+.navbar {
+  background-color: #2b2d42 !important;
+}
+
+main {
+  flex: 1 0 auto;
+}
+main .border {
+  border-color: #2b2d42 !important;
+}
+main .originalStringBox {
+  background-color: #2b2d42;
+  color: #edf2f4;
+  min-height: 122px;
+  font-size: 40px;
+}
+main .buttons .btn {
+  margin-bottom: 8px;
+  min-width: 45%;
+}
+main .buttons .btn:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #2b2d42;
+}/*# sourceMappingURL=style.css.map */
