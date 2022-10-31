@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "DynaPuff";
+}
+
+body {
+  background-color: #edf2f4;
+}
+
+.navbar {
+  background-color: #2b2d42 !important;
+}
+
+.navbar #time {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  float: right;
+  background: #2b2d42;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 2em;
+  font-weight: 600;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 5px 5px 20px rgba(225, 225, 225, 0.2), inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 5px 5px 20px rgba(225, 225, 225, 0.2), inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.navbar #time div {
+  position: relative;
+  width: 60px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--clr);
+}
+
+.navbar #time div:nth-child(1)::after,
+.navbar #time div:nth-child(2)::after {
+  content: ':';
+  position: absolute;
+  right: -4px;
+}
+
+.navbar #time div:last-child {
+  font-size: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.navbar #time div:nth-child(2)::after {
+  -webkit-animation: animate 1s steps(1) infinite;
+          animation: animate 1s steps(1) infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+main .border {
+  border-color: #2b2d42 !important;
+}
+
+main .originalStringBox {
+  background-color: #2b2d42;
+  color: #edf2f4;
+  min-height: 122px;
+  font-size: 40px;
+}
+
+main .originalStringBox div {
+  line-height: 61px;
+}
+
+main .buttons .btn {
+  margin-bottom: 8px;
+  min-width: 45%;
+}
+
+main .buttons .btn:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #2b2d42;
+}
+/*# sourceMappingURL=style.css.map */
