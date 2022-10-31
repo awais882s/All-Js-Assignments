@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Functions</title>
+</head>
+
+<body>
+    <!-- Bootstrap Navbar -->
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Assignments</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Chapter 8 - 14</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- introduction -->
+    <div class="container myContainer text-center mt-2 px-2 py-4 ">
+        <h3>Chapter # 8 - 14
+
+        </h3>
+    </div>
+
+    <!-- Buttons -->
+    <div class="container myContainer2 mt-5 text-center">
+        <button class="btn btn-primary m-2" id="concatinate" onclick="concatinate()">Concatinate Some Strings</button>
+        <button class="btn btn-primary m-2" id="askName" onclick="askName()">Ask Name From User</button>
+        <button class="btn btn-primary m-2" id="comparison" onclick="comparison()">Comparison Operator</button>
+        <button class="btn btn-primary m-2" id="ifElseIf" onclick="ifElseIf()">if else if</button>
+        <button class="btn btn-primary m-2" id="condition" onclick="condition()">Testing Sets Of Conditions</button>
+        <button class="btn btn-primary m-2" id="nested" onclick="nested()">if Statement Nested</button>
+        <button class="btn btn-primary m-2" id="login" onclick="login()">Login</button>
+        <button class="btn btn-primary m-2" id="check" onclick="check()">Check</button>
+        <!-- <button class="btn btn-primary m-2" id="calculateSomeNumbers">Calculate Some Numbers</button> -->
+    </div>
+
+    <!-- Original statement -->
+    <div class="text-center mt-5">
+        <h3>Original Statement</h3>
+        <div class="container myContainer3 mt-2" id="originalStatement"></div>
+        <button class="btn btn-danger border mt-4" onclick="clearStatement()" id="clearStatement">Clear
+            Statement</button>
+    </div>
+
+    <!-- OutPut nad Result -->
+    <div class="text-center mt-5">
+        <h3>Output / Result</h3>
+        <div class="container myContainer3 mt-2 text-start" id="output"></div>
+        <button class="btn btn-danger border my-4" onclick="clearOutput()" id="clearOutput">Clear Output</button>
+    </div>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- custom javascript -->
+    <script src="./script.js"></script>
+
+</body>
+
+
+
+</html>
